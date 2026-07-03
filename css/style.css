@@ -269,3 +269,27 @@ a {
 .active {
     box-shadow: 0 20px 40px rgba(0,0,0,.08);
 }
+
+.destinations {
+    padding: 80px 0 120px;
+    text-align: center;
+}
+
+.destination-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.destination-grid img {
+    width: 315px;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.destination-grid img:hover {
+    transform: translateY(-10px);
+}
