@@ -293,3 +293,78 @@ a {
 .destination-grid img:hover {
     transform: translateY(-10px);
 }
+
+/* BOOKING */
+
+.booking {
+    padding: 120px 0;
+}
+
+.booking .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.booking-content {
+    max-width: 520px;
+}
+
+.booking-title {
+    font-family: 'Volkhov', serif;
+    font-size: 50px;
+    line-height: 1.25;
+    color: #14183E;
+    margin: 15px 0 40px;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.step img {
+    width: 47px;
+    height: 48px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.step h4 {
+    font-size: 16px;
+    color: #5E6282;
+    margin-bottom: 6px;
+}
+
+.step p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #5E6282;
+    max-width: 330px;
+}
+
+.trip-card img {
+    width: 485px;
+    max-width: 100%;
+    display: block;
+}
+
+
+.services,
+.destinations,
+.booking {
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+
+.section-title {
+    margin-bottom: 20px !important;
+}
