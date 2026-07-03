@@ -34,18 +34,14 @@ a {
     justify-content: space-between;
 }
 
-/* LOGO */
-
 .logo img {
-    width: 115px;
+    width: 120px;
     transition: 0.3s ease;
 }
 
 .logo img:hover {
     transform: scale(1.05);
 }
-
-/* MENU */
 
 .menu {
     display: flex;
@@ -63,15 +59,11 @@ a {
     transform: translateY(-2px);
 }
 
-/* AÇÕES */
-
 .actions {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-
-/* LOGIN */
 
 .login {
     font-size: 16px;
@@ -84,39 +76,134 @@ a {
     transform: scale(1.08);
 }
 
-/* BOTÃO SIGN UP */
-
 .signup {
-    padding: 10px 20px;
-    border: 1px solid #212832;
-    border-radius: 5px;
     background: transparent;
-    color: #212832;
+    border: 1px solid #212832;
+    padding: 10px 20px;
+    border-radius: 5px;
     cursor: pointer;
+
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    font-weight: 500;
+    color: #212832;
+
     transition: 0.3s ease;
 }
 
 .signup:hover {
     background: #f1a501;
     border-color: #f1a501;
-    color: white;
+    color: #ffffff;
     transform: scale(1.08);
 }
-
-/* IDIOMA */
 
 .language select {
     border: none;
     background: transparent;
     outline: none;
     cursor: pointer;
+
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    font-weight: 500;
+    color: #212832;
+
     transition: 0.3s ease;
 }
 
 .language select:hover {
     color: #f1a501;
+}
+
+/* HERO */
+
+.hero {
+    padding: 70px 0;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-content {
+    max-width: 580px;
+}
+
+.subtitle {
+    display: block;
+    margin-bottom: 20px;
+
+    color: #df6951;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hero-content h1 {
+    font-family: 'Volkhov', serif;
+    font-size: 84px;
+    line-height: 1.05;
+    font-weight: 700;
+    letter-spacing: -3px;
+    color: #181e4b;
+
+    margin-bottom: 30px;
+}
+
+.hero-content p {
+    color: #5e6282;
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 470px;
+    margin-bottom: 35px;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.btn-primary {
+    background: #f1a501;
+    color: #ffffff;
+    border: none;
+    padding: 16px 28px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(241, 165, 1, 0.35);
+}
+
+.btn-demo {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #686d77;
+
+    transition: 0.3s ease;
+}
+
+.btn-demo:hover {
+    color: #df6951;
+    transform: scale(1.05);
+}
+
+.hero-image img {
+    width: 550px;
+    max-width: 100%;
 }
