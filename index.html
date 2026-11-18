@@ -14,6 +14,11 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tela2.css">
 </head>
 
 <body>
@@ -248,7 +253,47 @@
 
     </div>
   </section>
+<section class="newsletter-section">
+    <div class="newsletter-wrapper">
+      
+      <!-- Bolinha roxa como imagem (troque o src pelo nome do seu arquivo) -->
+      <div class="send-badge">
+        <img src="./images/Group 77.png" alt="Enviar">
+      </div>
 
+      <!-- Card principal -->
+      <div class="newsletter-card">
+        <!-- Anéis decorativos de fundo -->
+        <div class="rings rings-left"></div>
+        <div class="rings rings-right"></div>
+
+        <h2 class="newsletter-title">
+          Subscribe to get information, latest news and other interesting offers about Jadoo
+        </h2>
+
+        <form class="newsletter-form" action="#">
+          <div class="input-group">
+            <svg class="mail-icon" width="20" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 6L9.4 10.05C9.75556 10.3167 10.2444 10.3167 10.6 10.05L16 6" stroke="#39425D" stroke-width="1.5" stroke-linecap="round"/>
+              <rect x="0.75" y="0.75" width="19.5" height="16.5" rx="4.25" stroke="#39425D" stroke-width="1.5"/>
+            </svg>
+            <input type="email" placeholder="Your email" required>
+          </div>
+          <button type="submit" class="subscribe-btn">Subscribe</button>
+        </form>
+      </div>
+
+      <!-- Grade decorativa de "+" no canto inferior direito -->
+      <div class="plus-grid">
+        <span>+</span><span>+</span><span class="plus-orange">+</span><span></span>
+        <span>+</span><span>+</span><span>+</span><span></span>
+        <span>+</span><span class="plus-purple">+</span><span>+</span><span>+</span>
+        <span></span><span>+</span><span>+</span><span>+</span>
+        <span></span><span></span><span>+</span><span>+</span>
+      </div>
+
+    </div>
+  </section>
 
 </body>
 
